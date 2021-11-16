@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: Montserrat__Medium;
+    src: url('../Fonts/Montserrat/Montserrat-Medium.ttf');
+}
+
+@font-face {
+    font-family: Montserrat__SemiBold;
+    src: url('../Fonts/Montserrat/Montserrat-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Montserrat__Bold;
+    src: url('../Fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    font-family: Inter__Bold;
+    src: url('../Fonts/Inter/static/Inter-Bold.ttf');
+}
+
+@font-face {
+    font-family: Inter__Medium;
+    src: url('../Fonts/Inter/static/Inter-Medium.ttf');
+}
+
+@font-face {
+    font-family: Inter__SemiBold;
+    src: url('../Fonts/Inter/static/Inter-SemiBold.ttf');
+}
+
+.ft__banner img {
+    width: 100%;
+}
+
+.bl__section {
+    height: 100vh;
+}
+
+.ft__banner {
+    position: relative;
+    top: 0;
+}
+
+.text__content {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+}
+
+@media screen and (max-width: 1368px) {
+    .text__content {
+        right: 3%;
+    }
+}
+
+.text__content h2 {
+    font-family: 'Inter__Bold';
+    color: rgba(222, 6, 78, 1);
+    font-size: calc(22pt + 0.15vw);
+    letter-spacing: 0.03em;
+}
+
+.text__content .text {
+    margin: 0px -10px 0px -60px;
+    text-align: center;
+}
+
+.text__content h4 {
+    color: rgba(89, 81, 81, 1);
+    font-family: 'Inter__SemiBold';
+    font-size: calc(16pt + 0.15vw);
+    line-height: 1.4195;
+    letter-spacing: 0.03em;
+}
+
+.text__content p {
+    color: #525046;
+    font-family: 'Inter__Medium';
+    font-size: calc(13pt + 0.15vw);
+    line-height: 1.4195;
+    letter-spacing: 0.04em;
+}
+
+.text p span {
+    font-family: 'Inter__Bold';
+}
+
+.text__content h5 {
+    color: #595151;
+    font-size: calc(16pt + 0.15vw);
+    line-height: 1.4195;
+    letter-spacing: 0.04em;
+    font-family: 'Montserrat__Bold';
+}
+
+.text__content .red {
+    color: rgba(255, 0, 0, 1);
+}
+
+.text__content h5 span {
+    color: rgba(243, 176, 7, 1);
+}
+
+.text button {
+    border: none;
+    background-color: rgba(255, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 70px;
+    font-family: 'Montserrat__Bold';
+    border-radius: 12px;
+    font-size: calc(16pt + 0.15vw);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    box-shadow: 0px 12px 20px rgb(66 66 66 / 20%);
+}
+
+.text button:hover {
+    -webkit-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    transform: translateY(-2px);
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    background-color: rgba(243, 176, 7, 1);
+}
+
+@media screen and (max-width: 1080px) {
+    .text__content h2 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content h4 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content p {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text__content h5 {
+        font-size: calc(12pt + 0.15vw);
+    }
+    .text button {
+        font-size: calc(12pt + 0.15vw);
+        margin: 10px 0px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text__content h5 {
+        margin: 0px 0px !important;
+    }
+    .text__content {
+        top: 8%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .text__content h2 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content h4 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content p {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text__content h5 {
+        font-size: calc(8pt + 0.15vw);
+    }
+    .text button {
+        font-size: calc(8pt + 0.15vw);
+        margin: 10px 0px !important;
+        padding: 8px 20px;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .text__content h2 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .text__content h4 {
+        font-size: calc(6pt + 0.15vw);
+        margin: 0px !important;
+    }
+    .text__content p {
+        font-size: calc(6pt + 0.15vw);
+        margin: 8px 0px !important;
+    }
+    .text__content h5 {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .text button {
+        font-size: calc(6pt + 0.15vw);
+    }
+    .text__content {
+        right: 4%;
+    }
+}
